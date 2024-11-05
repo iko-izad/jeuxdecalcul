@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(30, 182, 208),rgb(215, 66, 17));
+  
+}
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+    background-color:rgb(39, 215, 221);
+    border-radius: 5px;
+ 
+    
+}
+button {
+    margin-top: 10px;
+ 
+}
+
+h1 {
+    color: brown;
+    font-family: cursive;
+    
+}
+
+
+
+
+footer {
+    position: fixed;  /* Fixe le footer en bas de la fenêtre */
+    left: 0; /* Positionne le côté gauche à 0 pixels */
+    bottom: 0; /* Positionne le bas à 0 pixels */
+    width: 100%;  /* Prend toute la largeur de la fenêtre */
+    background: linear-gradient(90deg, #e94435,#c6c618);
+    color:azure; /* Définit la couleur du texte en blanc */
+    text-align: center;  /* Centre le texte horizontalement */
+    line-height: 0.0001; /* Réduit la hauteur de ligne */
+    margin: 0; /* Supprime les marges par défaut */
+ }
+
+ .k2 {
+    border: 5px solid rgb(205, 131, 28);
+    border-radius: 5px;
+    padding: 20px;
+    background: linear-gradient(90deg, #bd426d,#4f33bd);
+ }

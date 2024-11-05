@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Identification et Calcul d'Âge</title>
+    <link href="styage.css" rel="stylesheet"/>
+    <script src="agess.js" defer></script>
+    <script src="evenement.js" defer></script>
+    <script src="reglevalidation.js" defer></script>
+    
+   
+</head>
+<body>
+    <!-- En-tête de la page -->
+    <header>
+        <h1>Jeu de calcul automatique de l’âge</h1>
+        <h2>L’application la plus fiable pour connaître votre âge.</h2>
+        <h3>Vous serez heureux d’apprendre votre âge.</h3>
+    </header>
+
+    <!-- Section principale de la page -->
+    <main class="k2">
+        <form>
+        <div class="personne">
+            <p>Veuillez saisir votre nom et votre prénom.</p>
+            <div class="identite">
+                <label>Nom :</label>
+                <input type="text" id="nom"><br>
+                
+                <label>Prénom :</label>
+                <input type="text" id="prenom"><br>
+            </div>
+        </div>
+    
+
+        <!-- Balise <div> pour la situation -->
+        <div class="situation">
+            <p>Veuillez sélectionner votre situation :</p>
+            <label>
+                <input type="radio" id="situationEtudiant" name="situation" value="etudiant"> Étudiant
+            </label>
+            <label>
+                <input type="radio" id="situationSalarie" name="situation" value="salarie"> Salarié
+            </label>
+        </div>
+
+        <!-- Balise <div> pour l'année de naissance -->
+        <div class="anneeNaissance">
+            <label>Année de naissance :</label>
+            <input type="number" id="anneeNaissance"><br>
+        </div>
+
+        <!-- Balise <div> pour le bouton de validation -->
+        <div class="boutonValider">
+            <button id="buttonvalider">Valider</button>
+        </div>
+
+        <!-- Balise <div> pour afficher le message d'âge calculé -->
+        <div class="messageAffiche">
+            <p><span id="messageSalutation"></span></p>
+            <p><span id="messageAge"></span></p>
+        </div>
+        </form>
+    </main>
+
+    <!-- Pied de page de la page -->
+    
+</body>
+<footer>
+    <p>Le site est développé par {Izad} dans le cadre de la formation Développeur Web et Web Mobile organisée par Ndovoo et <a href="https://www.cariforef-mayotte.yt" target="_blank">CARIF-OREF 976</a>.</p>
+        <p> droits réservés<span id="annee"></span></p>
+   
+</footer>
+</html>
